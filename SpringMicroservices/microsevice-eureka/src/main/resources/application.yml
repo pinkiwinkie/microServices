@@ -4,6 +4,8 @@ server:
 spring:
   application:
     name: msvc-eureka
+  config:
+    import: optional:configserver:htpp://localhost:8888
 
 eureka:
   instance:
