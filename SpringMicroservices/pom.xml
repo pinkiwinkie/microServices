@@ -9,7 +9,7 @@
     <artifactId>spring-boot-starter-parent</artifactId>
     <version>3.2.5</version>
   </parent>
-  
+
   <groupId>com.mycompany.app</groupId>
   <artifactId>SpringMicroservices</artifactId>
   <version>1.0-SNAPSHOT</version>
@@ -17,6 +17,9 @@
   <name>SpringMicroservices</name>
   <packaging>pom</packaging>
 
+<modules>
+  <module>microsevice-gateaway</module>
+</modules>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>17</maven.compiler.source>
@@ -31,7 +34,7 @@
     </dependency>
   </dependencies>
 
-  <build>
+  <build> 
     <pluginManagement>
       <plugins>
         <plugin>
