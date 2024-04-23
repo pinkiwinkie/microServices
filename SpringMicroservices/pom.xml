@@ -17,9 +17,12 @@
   <name>SpringMicroservices</name>
   <packaging>pom</packaging>
 
-<modules>
-  <module>microsevice-gateaway</module>
-</modules>
+  <modules>
+    <module>microsevice-gateaway</module>
+    <module>microsevice-eureka</module>
+    <module>microsevice-config</module>
+  </modules>
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>17</maven.compiler.source>
