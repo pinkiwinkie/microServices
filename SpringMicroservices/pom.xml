@@ -21,6 +21,7 @@
     <module>microsevice-gateaway</module>
     <module>microsevice-eureka</module>
     <module>microsevice-config</module>
+    <module>microsevice-user</module>
   </modules>
 
   <properties>
