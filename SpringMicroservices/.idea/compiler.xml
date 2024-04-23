@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="microsevice-eureka" />
         <module name="microsevice-gateaway" />
+        <module name="microsevice-user" />
         <module name="microsevice-config" />
       </profile>
     </annotationProcessing>
@@ -17,6 +18,7 @@
       <module name="microsevice-config" options="-parameters" />
       <module name="microsevice-eureka" options="-parameters" />
       <module name="microsevice-gateaway" options="-parameters" />
+      <module name="microsevice-user" options="-parameters" />
     </option>
   </component>
 </project>
